@@ -32,4 +32,9 @@ public class FamilyTree implements Serializable, Iterable<Person> {
     public Iterator<Person> iterator() {
         return people.values().iterator();
     }
+
+    public Object getPeople() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getPeople'");
+    }
 }
